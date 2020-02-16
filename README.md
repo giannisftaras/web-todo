@@ -1,2 +1,3 @@
 # web-todo
-A ToDo list manager created for the Web
+https://img.shields.io/badge/dependencies-none-green
+A simple ToDo task manager designed using PHP.
