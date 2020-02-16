@@ -1,0 +1,42 @@
+.header {
+  text-align: center;
+}
+
+.login-logo {
+  padding-top: 40px;
+  width: 100px;
+  height: 100px;
+  fill: #E91E63;
+}
+.username,
+.password {
+  display: flex;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.remember-me {
+  display: flex;
+  width: 320px;
+  margin: 20px auto;
+}
+
+.checkbox-container {
+  display: flex;
+}
+
+.remember-me label {
+  padding-top: 10px;
+  margin-left: 25px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  margin: auto;
+}
+
+.button-container button {
+  margin: 3px;
+}

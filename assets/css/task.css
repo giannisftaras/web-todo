@@ -1,0 +1,67 @@
+.main-body {
+  background: url('../../assets/img/main.jpg');
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mdc-card {
+  min-height: 100px;
+  width: 90%;
+  margin: auto;
+}
+
+.create-text-field {
+  margin: 20px;
+}
+
+.inputs-card {
+  padding: 40px;
+}
+
+.actions-card {
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.mdc-text-field {
+  margin-bottom: 20px;
+}
+
+.duedate {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.fab-container {
+  text-align: center;
+  margin: auto;
+}
+
+.complete-task {
+  background-color: #008000;
+}
+
+.delete-task {
+  background-color: #ff0000;
+}
+
+.donetask {
+  display: none !important;
+}
+
+.mdc-button--accent {
+  margin-right: 10px;
+  --mdc-theme-primary: #E91E63;
+}

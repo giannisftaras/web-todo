@@ -1,0 +1,79 @@
+.centered {
+  text-align: center;
+}
+
+.main-body {
+  background: url('../../assets/img/main.jpg');
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blocked {
+  display: none;
+}
+
+.subtitle {
+  margin-top: -3vh;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mdc-card {
+  min-height: 100px;
+  width: 90%;
+  margin: auto;
+}
+
+.input-card {
+  visibility: hidden;
+  margin-top: 10px;
+}
+
+.app-fab--absolute {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+@media(min-width: 1024px) {
+   .app-fab--absolute {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+.create-text-field {
+  margin: 20px;
+}
+
+.no-comment {
+  font-style: italic;
+}
+
+.prize {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.todolist {
+  max-width: 600px;
+  margin: 20px;
+  text-align: left;
+}
+
+.donetask {
+  color: #008000;
+}
+
+.duetask {
+  color: #ff8c00;
+}
+
+.create-text-field {
+  width: calc(100% - 170px);
+}

@@ -1,0 +1,23 @@
+:root {
+  --mdc-theme-primary: #009688;
+  --mdc-theme-secondary: #E91E63;
+  --mdc-theme-background: #fff;
+}
+
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+
+.mdc-drawer .mdc-list-item--activated .mdc-list-item__graphic {
+  color: var(--mdc-theme-primary);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding-top: 0.1px;
+}
